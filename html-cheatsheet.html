@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheat Sheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <nav>
+        <div class="logo">Jeet Patel</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="html-cheatsheet.html" id="selected_page">HTML</a></li>
+            <li><a href="css-cheatsheet.html">CSS</a></li>
+            <li><a href="JS-cheatsheet.html">JS</a></li>
+        </ul>
+        <br>
+    </nav>
+
+
+    <br>
+    <div class="Heading">
+        <h1>HTML Cheat Sheet</h1>
+    </div>
+
+    <br>
+
+
+    <section class="cheat-sheet">
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;html&gt; - Root of the document</h2>
+            <p> Defines the root of an HTML document.</p>
+            <p>
+                &lt;html&gt;
+            </p>
+            <pre>   &lt;!-- content goes here --&gt;</pre>
+            <p>
+                &lt;/html&gt;
+            </p>
+        </div>
+        <!----------------------------------------------------------------------------->
+
+
+        <div class="elements">
+            <h2>&lt;head&gt; - Contains metadata</h2>
+            <p>Holds metadata about the document, like title and links to stylesheets.</p>
+            <p>
+                &lt;head&gt;
+            </p>
+            <pre>   &lt;title&gt;Page Title&lt;/title&gt;</pre>
+            <p>
+                &lt;/head&gt;
+
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;body&gt; - Visible page content</h2>
+            <p>Contains all the content visible on the webpage.</p>
+            <p>
+                &lt;body&gt;
+            </p>
+            <pre>   &lt;h1&gt;Hello World&lt;/h1&gt;</pre>
+            <p>
+                &lt;/body&gt;
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;h1&gt;-&lt;h6&gt; - Headings</h2>
+            <p>Defines headings from largest (&lt;h1&gt;) to smallest (&lt;h6&gt;).</p>
+            <p>
+                &lt;h1&gt;Main Heading&lt;/h1&gt; <br> &lt;h2&gt;Subheading&lt;/h2&gt;
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;p&gt; - Paragraph text</h2>
+            <p>Defines a paragraph of text.</p>
+            <p>&lt;p&gt;This is a paragraph.&lt;/p&gt;
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;a&gt; - Hyperlink</h2>
+            <p>Creates a hyperlink to another page or location.</p>
+            <p> &lt;a href="https://example.com"&gt; Example &lt;/a&gt;
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;img&gt; - Displays images</h2>
+            <p>Shows an image on the page.</p>
+            <p> &lt;img src="image.jpg" alt="Description"&gt;
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;ul&gt; - Unordered list</h2>
+            <p>Creates a list with bullet points.</p>
+            <p> &lt;ul&gt; </p>
+            <pre>   &lt;li&gt;Item 1&lt;/li&gt; <br>   &lt;li&gt;Item 2&lt;/li&gt;</pre>
+            <p>&lt;/ul&gt;
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;ol&gt; - Ordered list</h2>
+            <p>Creates a numbered list.</p>
+            <p> &lt;ol&gt;</p>
+            <pre>     &lt;li&gt;First item&lt;/li&gt;<br>     &lt;li&gt;Second item&lt;/li&gt; </pre>
+            <p> &lt;/ol&gt;
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;li&gt; - List item</h2>
+            <p>Defines a single item in a list.</p>
+            <p> &lt;li&gt;Item text&lt;/li&gt;
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;div&gt; - Block container</h2>
+            <p>Used to group block-level elements for styling or layout.</p>
+            <p> &lt;div&gt;</p>
+            <pre>    &lt;p&gt;Content inside a div.&lt;/p&gt; </pre>
+            <p>&lt;/div&gt;
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;span&gt; - Inline container</h2>
+            <p>Used to group inline elements for styling.</p>
+            <p> &lt;span&gt; Inline text &lt;/span&gt;
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;table&gt; - Creates table</h2>
+            <p>Defines a table with rows and cells.</p>
+            <p> &lt;table&gt; </p>
+            <pre>  &lt;tr&gt; <br>     &lt;td&gt;Cell 1&lt;/td&gt; <br>     &lt;td&gt;Cell 2&lt;/td&gt; <br>  &lt;/tr&gt; </pre>
+            <p>&lt;/table&gt;
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;form&gt; - User input form</h2>
+            <p>Allows users to submit input to a server.</p>
+            <p> &lt;form action="/submit" method="post"&gt; </p>
+            <pre>   &lt;input type="text" name="name"&gt; <br>   &lt;button type="submit"&gt;Submit <br>   &lt;/button&gt;</pre>
+            <p>&lt;/form&gt;
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;input&gt; - Input field</h2>
+            <p>Creates a field for user input.</p>
+            <p> &lt;input type="text" name="username"&gt;
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>&lt;button&gt; - Clickable button</h2>
+            <p>Defines a clickable button.</p>
+            <p> &lt;button type="button"&gt;Click Me&lt;/button&gt;
+            </p>
+        </div>
+        <!----------------------------------------------------------------------------->
+
+    </section>
+
+    <div class="footer">
+        <footer>
+            <p>© 2026 Jeet Patel</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

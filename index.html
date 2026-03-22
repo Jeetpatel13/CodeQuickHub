@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeQuickHub - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="logo">Jeet Patel</div>
+    </nav>
+
+
+    <header class="hero">
+        <h1 id="typing"></h1>
+        <p>Your one-stop cheatsheet for HTML, CSS & JavaScript.</p>
+
+        <div class="hero-buttons">
+            <section class="quick-links">
+                <a href="html-cheatsheet.html" class="card">HTML</a>
+                <a href="css-cheatsheet.html" class="card">CSS</a>
+                <a href="JS-cheatsheet.html" class="card">JavaScript</a>
+            </section>
+            <button id="contactBtn" class="btnContact">Contact Me</button>
+        </div>
+    </header>
+
+    <!-- Contact Form Popup -->
+    <div id="contactPopup" class="popup">
+        <div class="popup-content">
+            <span id="closePopup" class="close">&times;</span>
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send</button>
+
+                <br>
+                <br>
+
+                <div class="contact-links">
+
+                    <a href="mailto:jeetpatel1344@gmail.com">📧 Email Me</a>
+
+                    <a href="https://www.linkedin.com/in/jeet-patel-15a965275/" target="_blank">
+                        💼 LinkedIn
+                    </a>
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <footer>
+            <p>© 2026 Jeet Patel</p>
+            <p id="clock"></p>
+            <p></p>
+            <p></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

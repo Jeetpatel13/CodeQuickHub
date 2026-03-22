@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Cheat Sheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <nav>
+        <div class="logo">Jeet Patel</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="html-cheatsheet.html">HTML</a></li>
+            <li><a href="css-cheatsheet.html" id="selected_page">CSS</a></li>
+            <li><a href="JS-cheatsheet.html">JS</a></li>
+        </ul>
+        <br>
+    </nav>
+
+
+
+    <br>
+
+    <div class="Heading">
+        <h1>CSS Cheat Sheet</h1>
+    </div>
+
+    <br>
+
+
+    <section class="cheat-sheet">
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>Universal Selector (*)</h2>
+            <p>Selects all elements on the page.</p>
+            <p> * {
+            <pre>   margin: 0; <br>   padding: 0;</pre>
+            }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>Element Selector (p, div, h1)</h2>
+            <p>Targets all elements of a specific type.</p>
+            <p> p {
+            <pre>   color: blue;</pre> } <br>
+            div {
+            <pre>   border: 1px solid black;</pre> }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>Class Selector (.class)</h2>
+            <p>Targets elements with a specific class.</p>
+            <p> .highlight {
+            <pre>   background-color: yellow;</pre>
+            }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>ID Selector (#id)</h2>
+            <p>Targets a unique element with a specific ID.</p>
+            <p> #header {
+            <pre>   font-size: 24px;</pre>
+            }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>Descendant Selector (div p)</h2>
+            <p>Targets elements nested inside another element.</p>
+            <p> div p {
+            <pre>   color: green;</pre>
+            }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>Child Selector (div &gt; p)</h2>
+            <p>Targets direct child elements only.</p>
+            <p> div &gt; p {
+            <pre>   font-weight: bold;</pre>
+            }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>Background</h2>
+            <p>Controls background color, image, size, etc.</p>
+            <p> body {
+            <pre>   background-color: lightblue; <br>   background-image: url('img.jpg'); <br>   background-size: cover;</pre>
+            }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>Text Styling</h2>
+            <p>Controls color, font-size, font-weight, alignment, etc.</p>
+            <p> p {
+            <pre>   color: red; <br>   font-size: 16px; <br>   font-weight: bold; <br>   text-align: center;</pre>
+            }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>Box Model</h2>
+            <p>Includes width, height, padding, border, and margin.</p>
+            <p> div {
+            <pre>   width: 200px; <br>   height: 100px; <br>   padding: 10px; <br>   border: 2px solid black; <br>   margin: 20px;</pre>
+            }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>Display</h2>
+            <p>Defines layout behavior (block, inline, flex, grid, none).</p>
+            <p> span {
+            <pre>   display: inline;</pre> } <br>
+            div {
+            <pre>   display: block;</pre> } <br>
+            .container {
+            <pre>   display: flex;</pre>
+            }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>Position</h2>
+            <p>Controls element positioning (relative, absolute, fixed, sticky).</p>
+            <p> #box {
+            <pre>   position: absolute; <br>   top: 50px; <br>   left: 100px;</pre>
+            }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>Flexbox</h2>
+            <p>One-dimensional layout system for alignment and spacing.</p>
+            <p> .flex-container {
+            <pre>   display: flex; <br>   justify-content: space-between; <br>   align-items: center;</pre>
+            }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>Grid</h2>
+            <p>Two-dimensional layout system for rows and columns.</p>
+            <p> .grid-container {
+            <pre>   display: grid; <br>   grid-template-columns: 1fr 2fr; <br>   gap: 10px;</pre>
+            }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>Hover (:hover)</h2>
+            <p>Applies styles when the mouse hovers over an element.</p>
+            <p> button:hover {
+            <pre>   background-color: green; <br>   color: white;</pre>
+            }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+        <div class="elements">
+            <h2>Media Query</h2>
+            <p>Applies styles based on screen size for responsive design.</p>
+            <p> @media (max-width: 600px) {
+            <pre>   body { <br>      background-color: lightgray; <br>   }</pre>
+            }
+            </p>
+        </div>
+
+        <!----------------------------------------------------------------------------->
+
+    </section>
+
+    <br>
+    <br>
+    <div class="footer">
+        <footer>
+            <p>© 2026 Jeet Patel</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
