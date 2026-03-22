@@ -1,6 +1,6 @@
 ## CodeQuickHub
 
-CodeQuick is a handy cheat sheet website for web developers, providing quick references for HTML, CSS, and JavaScript.
+CodeQuickHub is a handy cheat sheet website for web developers, providing quick references for HTML, CSS, and JavaScript.
 
 ##Features
 
