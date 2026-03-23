@@ -13,7 +13,12 @@ CodeQuickHub is a handy cheat sheet website for web developers, providing quick 
 - HTML – For structuring the content.  
 - CSS – For styling the website and making it visually appealing.  
 - JavaScript – For interactivity, such as form handling or dynamic content.
--
--
-- Note - Do not copy this code. That may led to academic misconduct (plagiarism).
+
+
+
+- ## ⚠️ Academic Integrity Warning
+
+Do NOT copy, reuse, or submit this code as your own work.
+
+Unauthorized use of this repository may be considered academic misconduct and can result in serious consequences, including failure of the assignment or disciplinary action. (No one is allowed to copy this code.)
 
